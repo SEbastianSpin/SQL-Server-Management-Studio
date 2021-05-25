@@ -42,4 +42,11 @@ VALUES (0, 'PAZ', 'TOMAS', '20', '445566770','pazt@sixt.com',0),
 (4, 'GUERRA', 'SOLEDAD', '28', '445566774','GUERRAS@sixt.com',4),
 (5, 'GUERRA', 'Juan', '49', '445566775','GUERRAj@sixt.com',5),
 (6, 'Anarquia', 'Mateo', '52', '445566776','anarquiam@sixt.com',0);
+
+
+
+INSERT INTO PRICES(PRICES_ID,WEEK_RATE,DAYLY_RATE,DIFF_LOCATION_FEE)
+VALUES (0, 120, 30, 30),
+VALUES (1, 220, 40, 50),
 */
+
