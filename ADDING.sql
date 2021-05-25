@@ -53,6 +53,15 @@ VALUES ('sedan', 120, 30, 30),
  ('exotic', 1000, 200, 500),
  ('cabriolet', 250, 50, 100);
 
- */
 
+
+ INSERT INTO RESTRICTIONS(RESTRICTIONS_ID,KM_LIMIT,KM_LIMIT_COST,TANK, TANK_COST)
+VALUES (0,NULL , NULL, 20,4),
+ (1, 200, 5, NULL,NULL),
+ (2, 400, 3, 10,5),
+ (3, 2000, 10, 30,4),
+ (4, NULL, NULL, NULL,NULL),
+ (5, 5000, 10, 100,4);
+
+  */
 
