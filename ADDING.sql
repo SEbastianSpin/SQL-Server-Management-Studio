@@ -45,8 +45,14 @@ VALUES (0, 'PAZ', 'TOMAS', '20', '445566770','pazt@sixt.com',0),
 
 
 
-INSERT INTO PRICES(PRICES_ID,WEEK_RATE,DAYLY_RATE,DIFF_LOCATION_FEE)
-VALUES (0, 120, 30, 30),
-VALUES (1, 220, 40, 50),
-*/
+INSERT INTO MODEL_PRICES(MODEL,WEEK_RATE,DAYLY_RATE,DIFF_LOCATION_FEE)
+VALUES ('sedan', 120, 30, 30),
+ ('suv', 220, 40, 50),
+ ('van', 400, 100, 10),
+ ('wagon', 150, 35, 30),
+ ('exotic', 1000, 200, 500),
+ ('cabriolet', 250, 50, 100);
+
+ */
+
 
